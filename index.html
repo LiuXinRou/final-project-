@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css">
+    <script src="https://unpkg.com/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function (e) {
+            $('img[usemap]').rwdImageMaps();
+        });
+    </script>
+    <style>
+        @import url("./assets/css/final.css");
+        @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awoesome.min.css");
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="" class="logo">
+                <img class="thelogo" src="./assets/img/IMG_0714.JPG" alt="">
+            </a>
+                <nav class="main-nav">
+                    <a class="h" href="./index.html">首頁</a>
+                    <a class="h" href="./inside-JL.html">租屋</a>
+                    <a class="h" href="./inside-LZ.html">中古屋</a>
+                    <a class="h" href="./inside-TY.html">店面</a>
+                    <a class="h" href="./member.html">關於我們</a>
+                    
+                    
+                    <a class="sc" href="./shoppingcar.html"><img src="./assets/img/shoppingcar.png" height="50px" width="50px"></a>
+                    <a class="m" href="./membership.html"><img src="./assets/img/member.png" height="50px" width="50px"></a>
+                </nav>
+        </div>
+    </header>
+
+    <div class="container"></div>
+        <div class="rows">
+            <div class="col-md-12">
+                <div class="slider_container">
+                    <div class="item">
+                        <img src="./assets/img/TY.house2.jpg" alt="pure css3 slider" />
+                        <img src="./assets/img/TYart.jpg" alt="pure css3 slider" />
+                        <img src="./assets/img/TY.house.jpg" alt="pure css3 slider" />
+                        <img src="./assets/img/TY.house2.jpg" alt="pure css3 slider" />
+                    </div>
+                </div>
+            </div>
+        </div>           
+    <div class="container2">
+        <div class="rows">
+            <div class="col-sm-5">
+                <p>點擊地圖查看更多</p>
+                <img src="./assets/img/map.png" usemap="#image-map">
+                <map name="image-map">
+                    <area target="" alt="" title="" href="LZ.html" coords="349,5,362,7,381,12,395,26,418,37,433,43,452,50,466,59,458,69,452,76,444,76,439,81,433,86,428,94,419,92,412,92,402,94,404,108,399,120,385,117,379,116,374,122,366,141,361,157,360,165,351,155,345,140,338,126,329,118,369,73" shape="poly">
+                    <area target="" alt="" title="" href="JL.html" coords="228,127,243,127,255,134,267,140,281,132,218,131,280,204,293,213,314,154,293,219,307,233,284,222,270,216,261,196,253,203,247,205,241,208,240,214,229,208,223,211,239,161,220,141,328,248,344,257,352,243,366,239,369,225,372,210,364,196,358,187,352,172,345,162,342,150" shape="poly">
+                    <area target="" alt="" title="" href="TY.html" coords="370,162,373,145,382,130,398,126,413,117,427,114,431,120,440,131,449,146,447,161,440,175,434,187,424,189,416,188,407,191,406,199,383,183,376,182,370,182" shape="poly">
+                </map>
+            </div>
+            <div class="col-sm-2">
+                桃園區
+                <div id="cover" class="coverflow">
+                    <a href='#'><img class="c" width="200px" height="250px" src="./assets/img/IMG_0714.JPG"></a>
+                    <a href='#'><img class="c" width="200px" src="./assets/img/map.png"></a>
+                    <a href='#'><img class="c" width="200px" src="./assets/img/TY.house.jpg"></a>
+                </div>
+                <a href="./rank.html" class="button"><p><input  type="button" onclick="" style="border:2px double" value="了解更多" ></a>
+            </div>
+            <div class="col-sm-2">
+                中壢區
+                <div id="cover" class="coverflow">
+                    <a href='#'><img class="c" width="200px" height="250px" src="./assets/img/IMG_0714.JPG"></a>
+                    <a href='#'><img class="c" width="200px" src="./assets/img/map.png"></a>
+                    <a href='#'><img class="c" width="200px" src="./assets/img/TY.house.jpg"></a>
+                </div>
+                <a href="./rank.html" class="button"><p><input  type="button" onclick="" style="border:2px double" value="了解更多" ></a>
+            </div>
+            <div class="col-sm-2">
+                蘆竹區
+                <div id="cover" class="coverflow">
+                    <a href='#'><img class="c" width="200px" height="250px" src="./assets/img/IMG_0714.JPG"></a>
+                    <a href='#'><img class="c" width="200px" src="./assets/img/map.png"></a>
+                    <a href='#'><img class="c" width="200px" src="./assets/img/TY.house.jpg"></a>
+                </div>
+                <a href="./rank.html" class="button"><p><input  type="button" onclick=""  style="border:2px double"value="了解更多"></a>
+            </div>
+        </div>
+    </div>
+    <footer  align=center>
+        <div class="a">if you need more imformation please contact us</div>
+        <div class="a">Copyright©2021多媒體程式設計第二組</div>  
+    </footer>
+    <script src="assets/js/map.js"></script>
+</body>
+</html>
+

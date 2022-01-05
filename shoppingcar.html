@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>購物車</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css">
+    <script src="https://unpkg.com/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <style>
+        @import url("./assets/css/shoppingcar.css");
+        @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awoesome.min.css");
+    </style>
+    
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+        <a href="./index.html" class="logo">
+            <img class="thelogo" src="./assets/img/IMG_0714.JPG" alt="">
+        </a>
+            <nav class="main-nav">
+        
+                <a class="h" href="./inside-JL.html">租屋</a>
+                <a class="h" href="./inside-LZ.html">中古屋</a>
+                <a class="h" href="./inside-TY.html">店面</a>  
+
+                <a class="h" href="./member.html">關於我們</a>
+                <a class="sc" href="./shoppingcar.html"><img src="./assets/img/shoppingcar.png" height="50px" width="50px"></a>
+                <a class="m" href="./membership.html"><img src="./assets/img/member.png" height="50px" width="50px"></a>
+            </nav>
+    </div>
+</header>
+
+    <div class="container">
+        <div class="rows">
+            <div class="col-md-12">
+                   <div class="list"> 
+                        <br>您的購物車內容 </br>
+                        <div class="total">數量&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;單價&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;總額</div>
+                          <div class="pic1">
+                            <img src="./assets/img/eghosue.jpg" width="250px" height="250px">
+                            <div class="q">
+                             <input type="button" value="-" class="minus" field="quantity">
+                             <input type="text" name="quantity" value="0" class="num" />
+                             <input type="button" value="+" class="plus" field="quantity"/>
+                            </div>
+                            <p>100</p>
+                            <div class="t">
+                                <p>100</p>
+                            </div>
+                          </div> 
+
+                         <div class="pic2">
+                            <br><img src="./assets/img/eghosue.jpg" width="250px" height="250px"> 
+                            <div class="q">
+                             <input type="button" value="-" class="minus" field="quantityy" id="minus2">
+                             <input type="text" name="quantityy" value="0" class="num" />
+                             <input type="button" value="+" class="plus" field="quantityy" id="plus2" />
+                            </div>
+                            <p>200</p>
+                            <div class="t2">
+                                <p>200</p>
+                            </div>
+                         </div>
+                         
+                         <a href="./end.html"><input class="shop" type="button" value="結帳"></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Copyright© 10944124趙子嘉 10944136劉心柔 10944228王長卿 10944236李啟源 
+    </footer>
+
+    <script src="./assets/js/shoppingcar.js"></script>
+</body>
+</html>

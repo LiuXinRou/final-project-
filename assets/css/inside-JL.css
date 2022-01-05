@@ -1,0 +1,374 @@
+body{
+    size: 100%;
+}
+/*ani.header*/
+/*ani.header*/
+.main-header{
+  background: linear-gradient(0deg,#888,rgb(223, 204, 204));
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  
+}
+
+.main-header .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  height: 130px;
+}
+.main-header .container .thelogo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.main-header .logo img{
+  width: 100%;
+  vertical-align: middle;
+}
+
+.main-header .main-nav{
+  margin: auto;
+  display: flex;
+}
+
+.main-header .main-nav a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 1em;
+  position: relative;
+  margin-top: -60px;
+  transform: translateY(0px);
+  transition: .3s;
+  font-size: 26px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  
+}
+.main-header .main-nav a:nth-child(4){
+  margin-left: 120px;
+}
+
+.main-header .main-nav a:hover{
+  transform: translateY(-10px);
+}
+
+.main-header .main-nav a:after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: 15px;
+  height: 0;
+  border-bottom: 1px solid #fff;
+  transition: .3s;
+}
+
+.main-header .main-nav a:hover:after{
+  left: 0;
+  right: 0;
+}
+body
+{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*logo.ani*/
+
+/*perlogo*/
+
+.train{
+    background-color: rgba(70, 131, 180, 0);
+    width: 50px;
+    height: 50px;
+    color: lavender;
+    font-size: 0px;
+    z-index: 1000;
+/*per-position*/
+    margin-top: -700px;
+    margin-left:80%;
+/*per-position*/    
+}
+.train:hover .Box{
+    display: block;
+    background-color: slategray;
+    width: 200px;
+    height: 400px;
+    color: goldenrod;
+    border-radius: 10px;
+}
+
+
+.park{
+    background-color: rgba(70, 131, 180, 0);
+    width: 50px;
+    height: 50px;
+    color: lavender;
+    font-size: 0px;
+    z-index: 1000;
+/*per-position*/
+    margin-top: 400px;
+    margin-left: 80%;
+/*per-position*/        
+    }
+.park:hover .Box{
+    display: block;
+    background-color: slategray;
+    width: 200px;
+    height: 400px;
+    color: goldenrod;
+    border-radius: 10px;
+}
+
+
+.somewhere{
+    background-color: rgba(70, 131, 180, 0);
+    width: 50px;
+    height: 50px;
+    color: lavender;
+    font-size: 0px;
+    z-index: 1000;
+/*per-position*/
+    margin-top: -600px;
+    margin-left: 80%;
+/*per-position*/
+    }
+.somewhere:hover .Box{
+    display: block;
+    background-color: slategray;
+    width: 200px;
+    height: 400px;
+    color: goldenrod;
+    border-radius: 10px;
+}
+
+/*perlogo*/
+
+.Box{
+    position: absolute;
+    display: none;
+  }
+.Box>button{
+    width: 120px;
+    height: 120px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .Box>button>a{
+      display: block;
+      color: #fff;
+      width: 120px;
+      height: 120px;
+      padding: 10px 10px;
+      text-align: center;
+  }
+  .Box>button>a>i{
+        margin-bottom: 8px;
+      }
+  .Box>button>a>p{
+        margin-bottom: 5px;
+      }
+
+   .Box:hover,.box:focus{
+      display: block;
+      background-color: slategray;
+      width: 200px;
+      height: 400px;
+      color: goldenrod;
+    }
+ .turn{
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);
+  }
+  .turn:hover{
+          transform: rotate(360deg);
+          transition: all .2s ease;
+    }
+
+  
+
+/*col*/
+.col-md-12
+{
+    height: 550px;
+    background-color: rgba(150, 150, 146, 0.363);
+    margin-top:160px;
+    border-radius: 30px;
+}
+.col-md-12 label
+{
+    font-size: 20px;
+    margin-left: 5px;
+    font-family: "微軟正黑體";
+    margin-right: 30px;
+    font-weight: bold;
+
+}
+.col-md-12 input
+{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.col-md-12 p
+{
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: bold;
+    margin-top: 15px;   
+}
+.container2>.rows>.col-md-12
+{
+    height: 750px;
+    background-color: rgba(72, 73, 63, 0.377);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.pic a img
+{
+    margin-left: 180px;
+    margin-top: 40px;
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+.pic2 img
+{
+    margin-left: 180px;
+    margin-top: 40px;
+    position: relative;
+}
+.pic  img
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-top: -10px;
+}
+.pic 
+{
+    font-size: 18px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    color: black;
+    margin-left: 5px;
+}
+.pic2 a img
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-top: -10px;
+}
+.pic2 a
+{
+    font-size: 18px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    color: black;
+    margin-left: 5px;
+   
+}
+.pic2 p
+{
+    font-size: 14px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 20px;
+    margin-left: 1600px;
+}
+.container2>.rows>.col-md-12 button
+{
+  margin-left: 1800px;
+  border-style: 1px;
+  border-width: 6px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+}
+.container2>.rows>.col-md-12 p
+{
+    font-size: 24px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.container2>.rows>.col-md-12 input
+{
+    margin-left: 20px;
+    border-style: 1px;
+    border-width: 6px;
+    font-family: "微軟正黑體";
+    margin-top: 30px;
+    font-weight: bold;
+}
+footer
+{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(109, 116, 99, 0.63);
+    margin-top: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: "Lucida Fax";
+    font-weight: bold;
+}.col-md-4>.map
+{
+    float: center;
+    
+    margin-top: 30px;
+    border-radius: 20px;
+    
+}
+.col-md-4
+{
+  float: center;
+  margin-top: 30px;
+  border-radius: 20px;
+  height: 750px;
+}
+.map img
+{
+   width: 100%;
+   border-radius: 20px;
+   margin-top: 5%;
+}
+
+.flip
+{
+    margin:10px;
+    padding:5px 5px 5px 2px;
+    text-align:center;
+    background:#585c4e50;
+    cursor:pointer;
+    font-family:'Arial';
+    width: 120px;
+    margin-left: 5px;
+    height: 60px;
+    border-radius: 20px;
+
+}
+.plan-1
+{
+    margin:0px;
+    padding:5px;
+    text-align:center;
+    background:#e5eecc;
+    border:solid 3px ;
+    background-color: rgba(72, 73, 63, 0.377);
+    display:none;
+    font-family:'Arial';
+    border-radius: 20px;
+}

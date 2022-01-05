@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>桃園區</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css">
+    <script src="https://unpkg.com/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <style>
+        @import url("./assets/css/inside-TY.css");
+        @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awoesome.min.css");
+    </style>
+    <script>
+        $(function(){
+    $(".flip").click(function(){
+    $(".plan-1").slideToggle("slow");
+    $(".xs1").toggle();
+    $(".xs2").toggle();
+  });});
+    </script>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="./index.html" class="logo">
+                <img class="thelogo" src="./assets/img/IMG_0714.JPG" alt="">
+            </a>
+                <nav class="main-nav">
+            
+                    <a class="h" href="./inside-JL.html">租屋</a>
+                    <a class="h" href="./inside-LZ.html">中古屋</a>
+                    <a class="h" href="./inside-TY.html">店面</a>  
+
+                    <a class="h" href="./member.html">關於我們</a>
+                    <a class="sc" href="./shoppingcar.html"><img src="./assets/img/shoppingcar.png" height="50px" width="50px"></a>
+                    <a class="m" href="./membership.html"><img src="./assets/img/member.png" height="50px" width="50px"></a>
+                </nav>
+                
+        </div>
+    </header>
+    <div class="container"></div>
+        <div class="rows">
+            <div class="col-md-12">
+                <tr>
+                    <div class="flip"><span class="1"><p>1.交通</p></span></div>
+                    <div class="plan-1">
+                         <td>     
+                            <input type="checkbox" id="train station" name="a"  value="checkbox">
+                            <label for="train station">附近有火車站</label>
+                         </td>
+                        <td>
+                             <input type="checkbox" id="train station" name="a"  value="checkbox">
+                             <label for="train station">附近有捷運站</label>
+                         </td>
+                        <td>
+                            <input type="checkbox" id="train station" name="a"  value="checkbox">
+                            <label for="train station">附近有公車站</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="train station" name="a"  value="checkbox">
+                            <label for="train station">附近有高速公路</label>
+                         </td>  
+                    </div>
+                <tr>
+                        <div class="flip"><span class="1"><p>2.價格</p></span></div>
+                        <div class="plan-1">
+                        <td>    
+                            <input type="checkbox" id="price" name="b"  value="checkbox">
+                            <label for="train station">價格:1000萬以下</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="price" name="b"  value="checkbox">
+                            <label for="train station">價格:1000萬至1500萬</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="price" name="b"  value="checkbox">
+                            <label for="train station">價格:1500萬至2000萬</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="price" name="b"  value="checkbox">
+                            <label for="train station">價格:2000萬至2500萬</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="price" name="b"  value="checkbox">
+                            <label for="train station">價格:2500萬至3000萬</label>
+                        </td>
+                </tr>
+                        </div>
+                <tr>
+                    <td>
+                        <div class="flip"><span class="1"><p>3.房間數</p></span></div>
+                        <div class="plan-1">
+                        <input type="checkbox" id="house" name="c"  value="checkbox">
+                        <label for="house">一房</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="house" name="c"  value="checkbox">
+                        <label for="house">兩房</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="house" name="c"  value="checkbox">
+                        <label for="house">三房</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="house" name="c"  value="checkbox">
+                        <label for="house">四房</label>
+                    </td>
+                </div>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="flip"><span class="1"><p>4.坪數</p></span></div>
+                        <div class="plan-1">
+                        <input type="checkbox" id="area" name="d"  value="checkbox">
+                        <label for="house">20坪以下</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="area" name="d"  value="checkbox">
+                        <label for="house">20坪-25坪</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="area" name="d"  value="checkbox">
+                        <label for="house">25坪-30坪</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="area" name="d"  value="checkbox">
+                        <label for="house">30坪-35坪</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="area" name="d"  value="checkbox">
+                        <label for="house">35坪以上</label>
+                    </td>
+                </div>
+                </tr>
+            </div>
+        </div>
+    <div class="container2">
+        <div class="rows">
+            <div class="col-md-12">
+                    <p>篩選結果(這是店面)</p>
+                    <div class="pic">
+                        <a href="./introduce.html"><img src="./assets/img/eghosue.jpg" ></a>
+                         <img src="./assets/img/fire.png">A18A19河岸景觀3房雙車 <img src="./assets/img/fire.png">
+                         
+                         <a href="./introduce.html"><img src="./assets/img/eghosue.jpg" ></a>
+                         <img src="./assets/img/fire.png">A18A19河岸景觀3房雙車 <img src="./assets/img/fire.png">
+                     </div>
+                     <div class="pic"> 
+                         <br><a href="./introduce.html"><img src="./assets/img/eghosue.jpg" ></a>
+                         <img src="./assets/img/fire.png">A18A19河岸景觀3房雙車 <img src="./assets/img/fire.png">
+                 
+                         <a href="./introduce.html"><img src="./assets/img/eghosue.jpg" ></a>
+                         <img src="./assets/img/fire.png">A18A19河岸景觀3房雙車 <img src="./assets/img/fire.png">
+                     </div>
+            </div>      
+        </div>           
+    </div>
+    <footer>
+        Copyright© 10944124趙子嘉 10944136劉心柔 10944228王長卿 10944236李啟源 
+    </footer>
+</body>
+</html>

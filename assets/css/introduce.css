@@ -1,0 +1,329 @@
+body{
+    size: 100%;
+}
+/*ani.header*/
+/*ani.header*/
+.main-header{
+  background: linear-gradient(0deg,#888,rgb(223, 204, 204));
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  
+}
+
+.main-header .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  height: 130px;
+}
+.main-header .container .thelogo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.main-header .logo img{
+  width: 100%;
+  vertical-align: middle;
+}
+
+.main-header .main-nav{
+  margin: auto;
+  display: flex;
+}
+
+.main-header .main-nav a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 1em;
+  position: relative;
+  margin-top: -60px;
+  transform: translateY(0px);
+  transition: .3s;
+  font-size: 26px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  
+}
+.main-header .main-nav a:nth-child(4){
+  margin-left: 120px;
+}
+
+.main-header .main-nav a:hover{
+  transform: translateY(-10px);
+}
+
+.main-header .main-nav a:after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: 15px;
+  height: 0;
+  border-bottom: 1px solid #fff;
+  transition: .3s;
+}
+
+.main-header .main-nav a:hover:after{
+  left: 0;
+  right: 0;
+}
+
+body
+{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer
+{
+    background-color: rgba(140, 143, 116, 0.377);
+    height: 150px;
+    font-size: 20px;
+    font-family: "Lucida Fax";
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+}
+.introduction
+{
+    background-color: rgba(168, 175, 123, 0.377);
+    height: 500px;
+    font-size: 20px;
+    margin-top: 160px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    
+}
+.introduction img
+{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin :90px 30px 30px 50px;
+}
+ .introduction h1
+{
+   
+    font-size: 30px;
+    font-family: "微軟正黑體";
+    margin-right: 40px;   
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.introduction h2
+{
+    padding-top: 60px;
+    padding-left: 560px;
+    font-size: 26px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+}
+.comment
+{
+    height: 600px;
+    background-color: rgba(153, 156, 119, 0.377);
+    margin-top: 30px;
+    border-radius: 20px;
+    
+}
+.comment img
+{
+     float: left;
+     width: 150px;
+     height: 150px;
+     margin-left: 40px;
+}
+.col-md-6>.comment>.b
+{
+  margin-top: 120px;
+  display:block;
+  margin-left: -150px;
+}
+.comment p
+{
+    font-size: 24px;
+    margin-top: 80px;
+    font-weight: bold;
+}
+.comment h3
+{
+    font-size: 24px;
+    margin-top: 220px;
+    margin-left: 200px;
+    font-weight: bold;
+}
+
+.comment h2
+{
+    font-size: 40px;
+    font-family: "微軟正黑體";
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.content, .content1 
+{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #000;
+    float: right;
+    padding-right: 30px;
+}
+.red
+{
+    color: red;
+}
+ .total-star
+{
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+}
+.star 
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;           
+ }
+ .stars 
+ {
+    color:black;
+    margin-left: 10px;
+}
+.introduction input
+{
+    border-radius: 30px;
+    background-color: burlywood;
+    font-size: 24px;
+    font-family: "Lucida Fax";
+    font-weight: bold;
+    margin-top: 140px;
+    height: 60px;
+    margin-left: 5px;
+    
+} 
+.introduction button
+{
+    border-radius: 30px;
+    background-color: burlywood;
+    font-size: 24px;
+    font-family: "Lucida Fax";
+    font-weight: bold;
+    margin-top: 140px;
+    margin-left: 280px;
+    height: 60px;
+    width: 140px;
+}
+*
+{
+    box-sizing: border-box;
+}
+.input-number
+{
+    width: 60px;
+    padding: 0 12px;
+    vertical-align: top;
+    text-align: center;
+    outline: none;
+}
+.input-number ,.input-number-increment,.input-number-decrement
+{
+    border:2px solid rgb(33, 46, 11);
+    height: 40px;
+    user-select: none;
+}
+.input-number-increment,.input-number-decrement
+{
+    display: inline-block;
+    width: 30px;
+    line-height: 38px;
+    background: rgb(91, 101, 158);
+    color: blanchedalmond;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.input-number-increment:active,.input-number-decrement:active
+{
+    background: #88b683;
+}
+.input-number-decrement
+{
+    border-right: none;
+    border-radius: 0px 0 0 0px;
+}
+.input-number-increment
+{
+    border-left: none;
+    border-radius: 0px 0 0 0px;
+}
+.write-comment
+{
+    height: 600px;
+    background-color: rgba(153, 156, 119, 0.377);
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.write-comment h2
+{
+    font-size: 28px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.write-comment input
+{
+    border-radius: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 300px;
+    height: 40px;
+}
+.write-comment h3
+{
+    margin-left: 30px;
+    font-size: 24px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    margin-top: 20px;
+}
+.write-comment h3 :hover
+{
+    background-color: rgba(153, 156, 119, 0.151);
+    
+}
+.write-comment textarea
+{
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 25px;
+    border-style: 6px solid;
+}
+.write-comment button
+{
+    border-radius: 30px;
+    width: 90px;
+    height: 50px;
+    margin-left: -5px;
+}
+.write-comment button :hover
+{
+    background-color: rgba(153, 156, 119, 0.048);;
+}

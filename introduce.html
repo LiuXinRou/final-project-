@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css">
+    <script src="https://unpkg.com/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <style>
+        @import url("./assets/css/introduce.css");
+        @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awoesome.min.css");
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="./index.html" class="logo">
+                <img class="thelogo" src="./assets/img/IMG_0714.JPG" alt="">
+            </a>
+                <nav class="main-nav">
+                    <a class="h" href="./inside-JL.html">租屋</a>
+                    <a class="h" href="./inside-LZ.html">中古屋</a>
+                    <a class="h" href="./inside-TY.html">店面</a>  
+
+                    <a class="h" href="./member.html">關於我們</a>
+                    <a class="sc" href="./shoppingcar.html"><img src="./assets/img/shoppingcar.png" height="50px" width="50px"></a>
+                    <a class="m" href="./membership.html"><img src="./assets/img/member.png" height="50px" width="50px"></a>
+                </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="rows">
+            <div class="col-md-12">
+                <div class="introduction">
+                    <img src="assets/img/eghosue.jpg">
+                    <h1>
+                        我還不買爆
+                    </h1>
+                    <h2>
+                       沒什麼好說的
+                        趕快去買
+                    </h2> 
+                    <span class="input-number-decrement">-</span>
+                    <input class="input-number" type="text" value="1" min="0" max="100">
+                    <span class="input-number-increment">+</span>
+                   
+                    <input type="button" value="加入購物車">
+                    <a href="./shoppingcar.html"><button type="button">前往結帳</button></a>
+                </div>
+                <div class="col-md-6">
+                    <div class="comment">
+                        <h2>評論區</h2>
+                        <img src="assets/img/people.png"><p>hsinhui:值得一買的房子</p>
+                        <img class="b" src="assets/img/people.png"><h3>chao:超讚的啦</h3>
+                    </div>
+                </div>    
+                <div class="col-md-6">    
+                    <div class="write-comment">
+                        <form name="comment" method="get" action=""> 
+                           <h2>撰寫評論</h2>
+                           <h3>姓名:
+                           <input type="text" placeholder="請輸入姓名" required> 
+                           <h3>電話:
+                           <input type="text" placeholder="請輸入電話" required>  
+                           <h3>想說:
+                           <textarea cols="30" rows="3" wrap="soft"></textarea> 
+                           <button type="button">送出</button> 
+                           <div class="content">
+                            <span class="red">*</span>
+                            <span class="total-star">總體評價：</span>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                           <div class="star"></div>
+                            <span class="stars">評分</span>
+                       </div>
+                       <div class="content1">
+                           <span class="red">*</span>
+                           <span class="total-star">外觀吸引度：</span>
+                           <div class="star"></div>
+                           <div class="star"></div>
+                           <div class="star"></div>
+                           <div class="star"></div>
+                           <div class="star"></div>
+                           <span class="stars">評分</span><br>
+                       </div>
+                       </form> 
+                   </div>   
+                </div>
+            </div> 
+        </div>
+    </div>
+    <footer>
+        Copyright© 10944124趙子嘉 10944136劉心柔 10944228王長卿 10944236李啟源 
+    </footer>
+<script src="./assets/js/introduce.js"></script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+body{
+    size: 100%;
+}
+/*ani.header*/
+/*ani.header*/
+.main-header{
+  background: linear-gradient(0deg,#888,rgb(223, 204, 204));
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  
+}
+
+.main-header .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  height: 130px;
+}
+.main-header .container .thelogo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.main-header .logo img{
+  width: 100%;
+  vertical-align: middle;
+}
+
+.main-header .main-nav{
+  margin: auto;
+  display: flex;
+}
+
+.main-header .main-nav a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 1em;
+  position: relative;
+  margin-top: -60px;
+  transform: translateY(0px);
+  transition: .3s;
+  font-size: 26px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  
+}
+.main-header .main-nav a:nth-child(4){
+  margin-left: 120px;
+}
+
+.main-header .main-nav a:hover{
+  transform: translateY(-10px);
+}
+
+.main-header .main-nav a:after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: 15px;
+  height: 0;
+  border-bottom: 1px solid #fff;
+  transition: .3s;
+}
+
+.main-header .main-nav a:hover:after{
+  left: 0;
+  right: 0;
+}
+body
+{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.list
+{
+    height: 850px;
+    background-color: rgba(109, 116, 99, 0.63);
+    border-style: 2px solid;
+    margin-top: 290px;
+    font-size: 26px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+.pic1 img
+{
+    
+    margin-top: 60px;  
+    margin-left: -740px;
+   
+}
+.pic2 img
+{
+    margin-top: 200px;
+    margin-left: -740px;
+}
+.total
+{
+    height: 30px;
+    border-color: brown;
+    padding-top: 50px;
+    padding-left: 400px;
+}
+.pic1
+{
+    height: 100px;
+   
+}
+.pic2
+{
+    height: 300px;
+}
+.pic1 p
+{
+    margin-left: 380px;
+    margin-top: -37px;
+}
+.t p
+{
+   padding-left: 500px;
+   
+}
+.t2 p
+{
+    padding-left: 500px;
+    
+}
+.pic2 p
+{
+    margin-left: 380px;
+    margin-top: -40px;
+}
+.num 
+{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 0;
+    border: 3px double rgba(116, 121, 105, 0.589);
+    margin-left: 5px;
+    padding-top: 5px;
+    margin-top: -100px;
+  }
+  .num2
+  {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 0;
+    border: 3px double rgba(116, 121, 105, 0.589);
+    margin-left: 5px;
+    padding-top: 5px;
+  }
+  .q
+  {
+      margin-left: -48%;
+      margin-top: -20%;
+      position: relative;
+      z-index: 999999999999;
+  }
+input.plus,.plus2
+  {
+    width: 35px;
+    height: 40px;
+    border: 3px double rgba(116, 121, 105, 0.589);
+    background: #f8f8f8;
+    margin-right: -400px;
+    
+  }
+  
+input.minus,.minus2
+ {
+    width: 35px;
+    height: 40px;
+    border: 3px double rgba(116, 121, 105, 0.589);
+    background: #f8f8f8;    
+    margin-left: 40px;
+    margin-top: 100px;
+   
+  }
+footer
+{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(109, 116, 99, 0.63);
+    margin-top: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: "Lucida Fax";
+    font-weight: bold;
+    margin-top: 200px;
+}
+.shop 
+{
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
